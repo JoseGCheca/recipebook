@@ -7,9 +7,9 @@ import { Recipe } from '../recipes.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('A test recipe', 'This is simply a test', 'https://cdn.pixabay.com/photo/2016/06/15/19/09/food-1459693_960_720.jpg'),
-    new Recipe('A test recipe 2', 'This is simply a test 2', 'https://cdn.pixabay.com/photo/2016/06/15/19/09/food-1459693_960_720.jpg'),
-    new Recipe('A test recipe 2', 'This is simply a test 2', 'https://cdn.pixabay.com/photo/2016/06/15/19/09/food-1459693_960_720.jpg')
+    new Recipe('A test recipe', 'This is simply a test', 'https://c1.staticflickr.com/1/108/275776506_ecfd29e6cf_b.jpg'),
+    new Recipe('A test recipe 2', 'This is simply a test 2', 'https://c1.staticflickr.com/1/108/275776506_ecfd29e6cf_b.jpg'),
+    new Recipe('A test recipe 3', 'This is simply a test 3', 'https://c1.staticflickr.com/1/108/275776506_ecfd29e6cf_b.jpg')
   ];
   constructor() { }
 
